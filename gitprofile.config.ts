@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Akhil U S',
     description: '',
     imageURL: '',
   },
@@ -86,17 +86,11 @@ const CONFIG = {
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'HTML'
+    
   ],
   experiences: [
     {
