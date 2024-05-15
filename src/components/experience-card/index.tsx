@@ -7,11 +7,17 @@ const ListItem = ({
   position,
   company,
   companyLink,
+  workedsitelink1,
+  workedsitelink2,
+  workedsitelink3,
 }: {
   time: React.ReactNode;
   position?: React.ReactNode;
   company?: React.ReactNode;
   companyLink?: string;
+  workedsitelink1?: string;
+  workedsitelink2?: string;
+  workedsitelink3?: string;
 }) => (
   <li className="mb-5 ml-4">
     <div
@@ -25,6 +31,28 @@ const ListItem = ({
         {company}
       </a>
     </div>
+    Worked Websites
+    <div className="mb-4 font-normal">
+  <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+    <li>
+      <a href={workedsitelink1} target="_blank" rel="noreferrer">
+        {workedsitelink1}
+      </a>
+    </li>
+    <li>
+      <a href={workedsitelink2} target="_blank" rel="noreferrer">
+        {workedsitelink2}
+      </a>
+    </li>
+    <li>
+      <a href={workedsitelink3} target="_blank" rel="noreferrer">
+        {workedsitelink3}
+      </a>
+    </li>
+  </ul>
+</div>
+
+
   </li>
 );
 
@@ -84,6 +112,21 @@ const ExperienceCard = ({
                     companyLink={
                       experience.companyLink
                         ? experience.companyLink
+                        : undefined
+                    }
+                    workedsitelink1={
+                      experience.workedsitelink1
+                        ? experience.workedsitelink1
+                        : undefined
+                    }
+                    workedsitelink2={
+                      experience.workedsitelink2
+                        ? experience.workedsitelink2
+                        : undefined
+                    }
+                    workedsitelink3={
+                      experience.workedsitelink3
+                        ? experience.workedsitelink3
                         : undefined
                     }
                   />
