@@ -68,7 +68,7 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: linuxluminaries121', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
@@ -77,7 +77,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'merwick',
-    website: 'https://usakhil121.github.io/',
+    website: 'https://usakhil.is-a.dev/',
     phone: '',
     email: 'devakhilus@gmail.com',
   },
